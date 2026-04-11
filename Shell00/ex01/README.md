@@ -35,7 +35,7 @@ chmod 455 testShell00
 tar -cf testShell00.tar testShell00
 ```
 
-6. The `tar -xvf` is used to unzip the file. Unzip by Shell does not change permissions and time:
+6. The `tar -xvf` is used to unzip the file. When you unzip the file in Shell, the permissions and time of the file do not change:
 ```
 tar -xvf testShell00.tar
 ```

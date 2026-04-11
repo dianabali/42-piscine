@@ -24,6 +24,7 @@ Also, use the `touch -t` and `chmod` commands to change the time and permissions
 **test0** and **test2** are folders. To create these, use the `mkdir` command:
 ```
 mkdir test0
+mkdir test2
 ```
 The file **test5** is linked to **test3**. To make this link, use the `ln` command:
 ```

@@ -14,28 +14,28 @@ Once you've achieved the previous steps, execute the following command to create
 ```
 
 # Explanation
-The `touch` command allows you to create files:
+1. The `touch` command allows you to create files:
 ```
 touch testShell00
 ```
-The `truncate -s` command allows you to change the size to 40 bytes. `-s` is the argument for changing the size:
+2. The `truncate -s` command allows you to change the size to 40 bytes. `-s` is the argument for changing the size:
 ```
 truncate -s 40 testShell00
 ```
-The `touch -t` command allows you to change the time. The default is yyyymmddhhmm (year, month, day, hour, minute):
+3. The `touch -t` command allows you to change the time. The default is yyyymmddhhmm (year, month, day, hour, minute):
 ```
 touch -t 202306012342 testShell00
 ```
-The `chmod ` command is used to change the permissions:
+4. The `chmod ` command is used to change the permissions:
 ```
 chmod 455 testShell00
 ```
-The `tar -cf` command is used to compact the file:
+5. The `tar -cf` command is used to compact the file:
 ```
 tar -cf testShell00.tar testShell00
 ```
 
-The `tar -xvf` is used to unzip the file. Unzip by Shell does not change permissions and time:
+6. The `tar -xvf` is used to unzip the file. Unzip by Shell does not change permissions and time:
 ```
 tar -xvf testShell00.tar
 ```

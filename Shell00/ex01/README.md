@@ -8,6 +8,10 @@ total 1
 -r--r-xr-x 1 XX XX 40 Jun 1 23:42 testShell00
 %>
 ```
+Once you've achieved the previous steps, execute the following command to create the file to be submitted:
+```
+%> tar -cf testShell00.tar testShell00
+```
 
 # Explanation
 The `touch` command allows you to create files:

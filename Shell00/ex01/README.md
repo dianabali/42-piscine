@@ -1,3 +1,5 @@
+# Subject
+
 Create a file called **testShell00** in your submission directory.
 Figure out a way to make the output look like this (except for the "total 1" line):
 ```
@@ -7,7 +9,7 @@ total 1
 %>
 ```
 
-### Explanation
+# Explanation
 The `touch` command allows you to create files:
 ```
 touch testShell00

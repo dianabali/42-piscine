@@ -1,6 +1,6 @@
 # Subject
 Write a command line that:
-- takes numbers from variables **FT_NBR1**, in **'\"?!** base and **FT_NBR2**, in **mrdoc**
+- takes numbers from variables **FT_NBR1**, in **'\\"?!** base and **FT_NBR2**, in **mrdoc**
 base.
 - Displays the sum of both in the **gtaio luSnemf** base.
 

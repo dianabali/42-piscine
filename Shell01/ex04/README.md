@@ -3,7 +3,7 @@ Write a command line that displays your machine's MAC addresses, with each addre
 
 # Explanation
 The command: `ifconfig | grep -o -E '([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2}'`
-- `ifconfig` - shows the settings of the system netweork.
+- `ifconfig` - shows the settings of the system network.
 - `grep` - searches by text correspondence.
 - `-o -E` - searches in the text correspondence of pattern.
 - `([[:xdigit:]]{1,2}:)` - searches for two hexadecimal digits followed by two points.

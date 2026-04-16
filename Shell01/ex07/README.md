@@ -1,22 +1,4 @@
-# Subject
-Write a command line that processes the output of cat /etc/passwd with the following modifications:
-- Remove comments.
-- Keep every other line, starting from the second line.
-- Reverse each login name.
-- Sort the results in reverse alphabetical order.
-- Keep only logins between the environment variables FT_LINE1 and FT_LINE2
-(inclusive).
-- Join them in a single line, separated by ", ".
-- End the output with a "."
-
-Example output (for lines 7 to 15):
-```
-$> ./r_dwssap.sh
-sstq_, sorebrek_brk_, soibten_, sergtsop_, scodved_, rlaxcm_, rgmecived_, revreswodniw_,
-revressta_.$>
-```
-
-# Explanation
+# Solution
 The command:
 ```
 cat /etc/passwd | \ # Shows the content of system logins

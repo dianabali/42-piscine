@@ -1,7 +1,4 @@
-# Subject
-Write a command line that displays your machine's MAC addresses, with each address followed by a line break.
-
-# Explanation
+# Solution
 The command: `ifconfig | grep -o -E '([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2}'`
 - `ifconfig` - shows the settings of the system network.
 - `grep` - searches by text correspondence.

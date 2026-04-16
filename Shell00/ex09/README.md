@@ -1,7 +1,4 @@
-# Subject
-Create a magic file named **ft_magic** that is properly formatted to enable the `file` command to detect files of type `42 file`, defined as those containing the string "42" at the 42nd byte.
-
-# Explanation
+# Solution
 **ft_magic** will contain:
 ```
 41 string 42 42 file

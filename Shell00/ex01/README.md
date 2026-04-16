@@ -1,19 +1,4 @@
-# Subject
-
-Create a file called **testShell00** in your submission directory.
-Figure out a way to make the output look like this (except for the "total 1" line):
-```
-%> ls -l
-total 1
--r--r-xr-x 1 XX XX 40 Jun 1 23:42 testShell00
-%>
-```
-Once you've achieved the previous steps, execute the following command to create the file to be submitted:
-```
-%> tar -cf testShell00.tar testShell00
-```
-
-# Explanation
+# Solution
 1. The `touch` command allows you to create files:
 ```
 touch testShell00

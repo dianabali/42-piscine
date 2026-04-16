@@ -1,29 +1,4 @@
-# Subject
-Write a command line that:
-- takes numbers from variables **FT_NBR1**, in **'\\"?!** base and **FT_NBR2**, in **mrdoc**
-base.
-- Displays the sum of both in the **gtaio luSnemf** base.
-
-Example 1:
-```
-FT_NBR1=\'?"\"'\
-FT_NBR2=rcrdmddd
-```
-The result is:
-```
-Salut
-```
-Example 2:
-```
-FT_NBR1=\"\"!\"\"!\"\"!\"\"!\"\"!\"\"
-FT_NBR2=dcrcmcmooododmrrrmorcmcrmomo
-```
-The result is:
-```
-Segmentation fault
-```
-
-# Explanation
+# Solution
 The command:
 ```
 echo $FT_NBR1 + $FT_NBR2 | \ # Concatenates strings

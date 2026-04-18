@@ -1,9 +1,9 @@
 //#include <stdio.h>
 //#include <string.h>
 
-int	ft_strncmp(char *s1, char *s2, unsigned int n)
+int ft_strncmp(char *s1, char *s2, unsigned int n)
 {
-	unsigned int	i;
+	unsigned int i;
 
 	i = 0;
 	if (n == 0)
@@ -13,7 +13,7 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	return (s1[i] - s2[i]);
 }
 
-/* int	main(void)
+/* int main(void)
 {
 	char s1[] = "12";
 	char s2[] = "2";	
